@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="timer-display">
+            <div class="progress-bar"></div>
+            <div id="time-left">25:00</div>
+        </div>
+        <div class="controls">
+            <h2 id="timer-label">Session 1</h2>
+            <div class="time-settings">
+                <div class="session-time">
+                    <p>session time</p>
+                    <div class="time-control">
+                        <button id="session-decrement">-</button>
+                        <span id="session-length">25 min</span>
+                        <button id="session-increment">+</button>
+                    </div>
+                </div>
+                <div class="break-time">
+                    <p>break time</p>
+                    <div class="time-control">
+                        <button id="break-decrement">-</button>
+                        <span id="break-length">5 min</span>
+                        <button id="break-increment">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="timer-controls">
+                <button id="start-stop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+
+</html>
